@@ -1,5 +1,5 @@
 {
-  "name": "react-fileupload-progress",
+  "name": "intr-react-fileupload-progress",
   "version": "0.3.2",
   "description": "React component which render progress of fileupload",
   "main": "./lib/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/georgeosddev/react-fileupload-progress"
+    "url": "git@github.com:intrinsitech/react-fileupload-progress.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,8 @@
     "fileupload",
     "progress"
   ],
-  "author": "Takeharu.Oshida",
+  "author": "Takeharu.Oshida (original), Stephen Hewitt (updates)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/georgeosddev/react-fileupload-progress/issues"
-  },
-  "homepage": "https://github.com/georgeosddev/react-fileupload-progress",
   "devDependencies": {
     "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",

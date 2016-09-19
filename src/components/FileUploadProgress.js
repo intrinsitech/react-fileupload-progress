@@ -98,7 +98,8 @@ class FileUploadProgress extends React.Component {
   _doUpload() {
     let form = this._getFormData();
     let req = new XMLHttpRequest();
-    req.open('POST', this.props.url);
+    let url = this.props.urlGetter ? this.props.urlGetter() : this.props.url
+    req.open('POST', url);
 
     req.addEventListener('load', (e) =>{
       this.proxy.removeAllListeners(['abort']);
